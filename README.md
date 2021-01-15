@@ -34,12 +34,16 @@ In order to pre-train and then finetune a [T5 small](https://github.com/google-r
 * ##### Pre-trainig/Fine-tuning 
   
     To pre-train and then, fine-tune T5, please use the script we provide here:
-    - <a href ='https://github.com/dl4se/DL4SE_2020/blob/master/Code/fine-tuning.ipynb'>Pre-Training</a> 
-    -  <a href ='https://github.com/dl4se/DL4SE_2020/blob/master/Code/pre-training.ipynb'>Fine-Tuning</a> 
+    - <a href ='https://github.com/antonio-mastropaolo/T5-learning-ICSE_2021/blob/main/Code/pre-training.ipynb'>Pre-Training</a> 
+    -  <a href ='https://github.com/antonio-mastropaolo/T5-learning-ICSE_2021/blob/main/Code/fine-tuning.ipynb'>Fine-Tuning</a> 
 
 * ##### How to generate the predictions
 
-    First you need to convert the TF model into a pytorch model by using <a href='https://github.com/dl4se/DL4SE_2020/blob/master/Code/run-on-test-set/tf_2_pytorch_T5.py'> TF_to_Pytorch </a>, then run <a href='https://github.com/dl4se/DL4SE_2020/blob/master/Code/run-on-test-set/generate_results.ipynb'> Generate Results </a>
+    First you need to convert the TF model into a pytorch model by using <a href='https://github.com/antonio-mastropaolo/T5-learning-ICSE_2021/blob/main/Code/Miscellaneous/tf_2_pytorch_T5.py'> TF_to_Pytorch </a>, then run <a href='https://github.com/antonio-mastropaolo/T5-learning-ICSE_2021/blob/main/Code/run-on-test-set/generate_results.ipynb'> Generate Results </a>
+
+* ##### Our results
+    
+    To check our predictions: https://drive.google.com/drive/folders/14ywfhJorNNeWxgSV1bI0XIzlLAFu8odH?usp=sharing
 
 
-**Additional:** In <a href='https://github.com/dl4se/DL4SE_2020/tree/master/Code/Miscellaneous'>Miscellaneous</a> folder, you can find all the additional scripts we used for computing the BLEU score and the overlap metrics. Furthermore, <a href='https://drive.google.com/file/d/1BWhr4KbAp6_NKc_BH3lPTjfM1Hzq71Ct/view?usp=sharing'>here</a> and <a href='https://drive.google.com/drive/folders/1caP5-OpurKOMhkqfsrkHxKarEoYVjiFI?usp=sharing'>here</a> you can also experiment with our pre-trained and fine-tuned models.
+**Additional:** In <a href='https://github.com/antonio-mastropaolo/T5-learning-ICSE_2021/tree/main/Code/Miscellaneous'>Miscellaneous</a> folder, you can find all the additional scripts we used for computing the BLEU score and the overlap metrics. Furthermore, <a href='https://drive.google.com/file/d/1BWhr4KbAp6_NKc_BH3lPTjfM1Hzq71Ct/view?usp=sharing'>here</a> and <a href='https://drive.google.com/drive/folders/1caP5-OpurKOMhkqfsrkHxKarEoYVjiFI?usp=sharing'>here</a> you can also experiment with our pre-trained and fine-tuned models.
