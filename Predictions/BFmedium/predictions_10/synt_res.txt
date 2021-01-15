@@ -1,3 +1,0 @@
-# Of correct methods: 49650 --> % 75.859436
-# Of incorrect methods: 15800 --> % 24.140566
-# Of total methods: 65450
