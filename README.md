@@ -41,9 +41,7 @@ In order to pre-train and then finetune a [T5 small](https://github.com/google-r
 
     First you need to convert the TF model into a pytorch model by using <a href='https://github.com/antonio-mastropaolo/T5-learning-ICSE_2021/blob/main/Code/Miscellaneous/tf_2_pytorch_T5.py'> TF_to_Pytorch </a>, then run <a href='https://github.com/antonio-mastropaolo/T5-learning-ICSE_2021/blob/main/Code/run-on-test-set/generate_results.ipynb'> Generate Results </a>
 
-* ##### Our results
-    
-    To check our predictions: https://drive.google.com/drive/folders/14ywfhJorNNeWxgSV1bI0XIzlLAFu8odH?usp=sharing
+* ##### Our results: https://drive.google.com/drive/folders/14ywfhJorNNeWxgSV1bI0XIzlLAFu8odH?usp=sharing
 
 
 **Additional:** In <a href='https://github.com/antonio-mastropaolo/T5-learning-ICSE_2021/tree/main/Code/Miscellaneous'>Miscellaneous</a> folder, you can find all the additional scripts we used for computing the BLEU score and the overlap metrics. Furthermore, <a href='https://drive.google.com/file/d/1BWhr4KbAp6_NKc_BH3lPTjfM1Hzq71Ct/view?usp=sharing'>here</a> and <a href='https://drive.google.com/drive/folders/1caP5-OpurKOMhkqfsrkHxKarEoYVjiFI?usp=sharing'>here</a> you can also experiment with our pre-trained and fine-tuned models.
