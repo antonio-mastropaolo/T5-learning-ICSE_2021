@@ -14,6 +14,12 @@
 # limitations under the License.
 """Convert T5 checkpoint."""
 
+### HOW TO RUN ###
+
+#1) Make sure you have installed the transformers library, if not then: !pip install transformers==3.0.2
+
+#2) tf_2_pytorch_T5.py --tf_checkpoint_path pretrained/pretrained-model.ckpt-xxxxx  --config_file config.json --pytorch_dump_path ./outputd_dir/
+
 
 import argparse
 
